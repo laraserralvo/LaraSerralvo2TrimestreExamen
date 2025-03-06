@@ -50,3 +50,41 @@ td{
     color:darkorange ;
     text-align: center;
 }
+
+#titformulario{
+    color: crimson;
+    font-size: 28px;
+    text-align: center;
+    font-family: 'street', sans-serif;
+    margin-top: 20px;
+}
+
+form{
+    width: 600px;
+    height: 1100px;
+    margin: auto;
+    border: 10px outset rgb(237, 175, 5);
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+fieldset {
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px; 
+  }
+
+legend{
+    font-family: 'street';
+    font-size: 14px;
+    color: rgb(237, 175, 5);
+}
+
+label{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
