@@ -1,0 +1,52 @@
+body{
+    background-image: url(img/fondo2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+@font-face {
+    font-family: 'street';
+    src: url('Font/street.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#tittabla{
+    font-family: 'street', sans-serif;
+    color: crimson;
+    font-size: 46px;
+    text-align: center;
+}
+
+table{
+    width: 600px;
+    height: 800px;
+    border: 10px outset rgb(237, 175, 5);
+    border-radius: 10px;
+    background-color: black;
+    margin: auto;
+}
+
+#cabeceratabla{
+    background: url('img/fondocabecera.jpg');
+    background-size: cover;
+    text-align: center;
+    font-size: 40px;
+    color: whitesmoke;
+    font-family: 'street', sans-serif;
+    font-weight: bold;
+    position: relative;
+    opacity: 0.5;
+}
+
+td{
+    width: 40px;
+    height: 45px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-family: 'street';
+    font-size: 18px;
+    color:darkorange ;
+    text-align: center;
+}
